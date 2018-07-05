@@ -14,14 +14,14 @@ Se revisaron temas de estilos y herramientas para el desarrollo, implementados p
 
 Proyectos:
 
-  1 Prototipo
-  2 Página HV
-  3 Clonar página
-  4 Calculadora
-  5 Node SASS
-  6 Responsive
-  7 Animación CSS3
-  8 Banderas Mundial 
+  1. Prototipo  
+  2. Página HV  
+  3. Clonar página  
+  4. Calculadora  
+  5. Node SASS  
+  6. Responsive  
+  7. Animación CSS3  
+  8. Banderas Mundial  
 ---
 ---
 ![Image](interna_fedesoft.jpg)
