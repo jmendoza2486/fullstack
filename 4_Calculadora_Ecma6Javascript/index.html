@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1 id="texto">CALCULANDO ANDO</h1>
+    <input id="expresion" type="text" value=""><br><br>
+    
+    <button onclick="limpiar()" width="10px">_Limpiar_</button>
+    <button onclick="define('/')"> / </button><br>
+    <button onclick="define(7)"> 7 </button>
+    <button onclick="define(8)"> 8 </button>
+    <button onclick="define(9)"> 9 </button>
+    <button onclick="define('+')"> + </button><br>
+    <button onclick="define(4)"> 4 </button>
+    <button onclick="define(5)"> 5 </button>
+    <button onclick="define(6)"> 6 </button>
+    <button onclick="define('-')"> - </button><br>
+    <button onclick="define(1)"> 1 </button>
+    <button onclick="define(2)"> 2 </button>
+    <button onclick="define(3)"> 3 </button>
+    <button onclick="define('x')"> x </button><br>
+    <button onclick="define(0)"> 0 </button>
+    <button onclick="operacion2()"> = </button>
+    <br>
+    
+    <br><br>
+    numero 1<input id="a"><br>
+    numero 2<input id="b"><br>
+    
+    <button onclick="operacion('+')"> + </button>
+    <button onclick="operacion('-')"> - </button>
+    <button onclick="operacion('x')"> x </button>
+    <button onclick="operacion('/')"> / </button>
+    <button onclick="operacion()"> operacion </button>
+    Resultado: <p id="res"></p>
+  </body>
+
+</html>
