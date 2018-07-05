@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="aplicacion">
+  <head>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="librerias/angularJS/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+  </head>
+    
+  <body>
+    <!--
+    <h1 id="texto">CLASE JSON</h1>
+    <div ng-controller="PrincipalCtrl">
+        {{ejemplo}}<br><br><br>
+
+        <table class="table">
+            <tr ng-repeat="equipo in equipos">
+                <td> {{equipo.local}}</td>
+                <td>Versus</td>
+                <td> {{equipo.visitante}}</td>
+            </tr>
+        </table>
+        {{equipos2}}
+      -->
+      <div ng-controller="PrincipalCtrl">
+      <div class="ppal">
+        <div class="tableDiv-t">
+              <div class="cellDiv-t"> Local </div>
+              <div class="cellDiv-t"> Visitante </div>
+        </div>
+        
+            <div ng-repeat="equipo in equipos2" class="tableDiv">
+                <ul>
+                  <div ng-if="$index%2==0" class="cellDiv">
+                      {{equipo}}
+                  </div>
+                  <div ng-if="$index%2==1" class="cellDiv">
+                      {{equipo}}
+                  </div>
+                </ul>
+              </div>
+              <div ng-repeat="flag in flags" class="div-flag">
+                <div ng-if="$index%2==0" class="div-flag-local"><img src={{flag}}></div>
+                <div ng-if="$index%2==1" class="div-flag-visit"><img src={{flag}}></div>
+              </div>
+        </div>
+        
+    </div>
+  </body>
+
+</html>

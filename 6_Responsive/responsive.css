@@ -1,0 +1,71 @@
+#encabezado{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+#cuerpo{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+#pie{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+#tar1{
+    width: 33%;
+    height: 80px;
+    background-color: cornflowerblue;
+    float: left;
+}
+#tar2{
+    width: 33%;
+    height: 80px;
+    background-color: chartreuse;
+    float: left;
+}
+#tar3{
+    width: 33%;
+    height: 80px;
+    background-color: brown;
+    float: left;
+}
+@media only screen and (max-width : 450px){
+    #tar1{
+        background-color: yellow;
+        width: 40%;
+        float: none;
+    }
+    #tar2{
+        background-color: blue;
+        width: 40%;
+        float: none;
+    }
+    #tar3{
+        background-color: red;
+        width: 40%;
+        float: none;
+    }
+    #cuerpo{
+        width: 100%;
+        height: 300px;
+        background-color: aqua;
+    }
+}
+@media only screen and (min-width : 450px) and (max-width : 550px){
+    #tar1{
+        background-color: yellow;
+        width: 40%;
+        float: left;
+    }
+    #tar2{
+        background-color: blue;
+        width: 40%;
+        float: left;
+    }
+    #tar3{
+        background-color: red;
+        width: 40%;
+    }
+}

@@ -1,0 +1,17 @@
+$color : red;
+$color2 : gray;
+$valida : 0;
+$color_google : yellow;
+$color_fit : aqua;
+$color_gmail : black;
+
+body{
+    @if $valida == 1 { color : $color; font-size: 20px;}
+    @if $valida == 0 { color : $color2; font-size: 20px;}
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-top: 1px solid black;
+}

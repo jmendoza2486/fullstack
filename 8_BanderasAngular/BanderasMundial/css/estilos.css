@@ -1,0 +1,70 @@
+body {
+  color: gray;
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-top: 1px solid black;
+}
+
+.ppal {
+  width: 400px;
+  border: 1px solid black;
+  height: 258px;
+}
+
+.tableDiv-t {
+  height: 50px;
+  background-color: gray;
+}
+
+.cellDiv-t {
+  width: 198px;
+  height: 100%;
+  float: left;
+  font-size: 15px;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.tableDiv {
+  height: 50px;
+  background-color: beige;
+  border: 1px solid black;
+  float: left;
+}
+
+.cellDiv {
+  width: 158px;
+  height: 50px;
+  float: left;
+  font-size: 15px;
+  color: black;
+  position: relative;
+  left: 50px;
+}
+
+.div-flag {
+  width: 100px;
+  height: 50px;
+}
+
+.div-flag-local {
+  position: relative;
+  top: -210px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.div-flag-visit {
+  position: relative;
+  top: -210px;
+  left: 170px;
+  width: 20%;
+  height: 50px;
+  float: left;
+}
