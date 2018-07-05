@@ -1,5 +1,5 @@
-# fullstack
-Proyectos Full Stack
+# Fullstack
+Repositorio: Proyectos Full Stack
 
 Curso Fullstack y Aplicaciones Híbridas
 =======
@@ -19,5 +19,6 @@ Proyectos:
   * Clonar página
   * Animación CSS3
   * Banderas Mundial
-
+---
+---
 ![Image](interna_fedesoft.jpg)
