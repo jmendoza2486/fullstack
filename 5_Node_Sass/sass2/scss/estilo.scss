@@ -1,0 +1,21 @@
+@import 'variables';
+body{
+    @if $valida == 1 { color : $color; font-size: 80px;}
+    @if $valida == 0 { color : $color2; font-size: 50px;}
+}
+ul{
+    background-color : aqua;
+    li{
+        background-color: green;
+        font-size : 70px;
+        a[href="http://www.google.com"]{
+            background-color: $color_google;
+        }
+        a[href="http://www.fitideas.com"]{
+            background-color: $color_fit;
+        }
+        a[href="http://www.gmail.com"]{
+            background-color: $color_gmail;
+        }
+    }
+}

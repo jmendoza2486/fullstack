@@ -1,0 +1,23 @@
+body {
+  color: gray;
+  font-size: 50px;
+}
+
+ul {
+  background-color: aqua;
+}
+ul li {
+  background-color: green;
+  font-size: 70px;
+}
+ul li a[href="http://www.google.com"] {
+  background-color: yellow;
+}
+ul li a[href="http://www.fitideas.com"] {
+  background-color: aqua;
+}
+ul li a[href="http://www.gmail.com"] {
+  background-color: black;
+}
+
+/*# sourceMappingURL=estilo.css.map */
